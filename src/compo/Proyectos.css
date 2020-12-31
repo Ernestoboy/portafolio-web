@@ -1,0 +1,212 @@
+
+
+
+        
+.proyectos {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    top:0vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+    }
+    
+    .paz1 , .paz2 , .paz3 , .paz4 , .paz5 , .paz6 , .paz7 , .paz8 , .paz9 	{
+    position: relative;
+    width: 36%;
+    height: 28vh;
+    background:url("../imagenes/one.png");
+    background-size: cover; 
+    margin:0.3%;
+    transition: 0.5s all ease;
+    } 
+    
+    
+    
+    .paz2 	{
+    background:url("../imagenes/two.png");
+    background-size: cover;
+    
+    }
+    
+    
+    .paz3 	{
+    background:url("../imagenes/dom.png");
+    background-size: cover;
+    width: 24%;
+    }
+    
+    
+    .paz4 	{
+    background:url("../imagenes/visa3.png");
+    background-size: cover;
+    
+    }
+    
+    
+    .paz5	{
+    background:url("../imagenes/visa6.png");
+    background-size: cover;
+    
+    }
+    
+    
+    .paz6 	{
+      
+    width: 24%;
+    overflow: hidden;
+    }
+    
+    .paz6:before {
+    content:"";
+    width: 100%;
+    height: 200%;
+    position:absolute;
+    background:url("../imagenes/dom.png");
+    background-size: cover;
+    top:-100%;
+    left:-0%;
+    }
+    
+    
+    
+    .paz7 	{
+    background:url("../imagenes/visa2.png");
+    background-size: cover;
+    width: 33%;
+    }
+    
+    
+    
+    .paz8 	{
+      
+    width: 33%;
+    overflow: hidden;
+    background:url("../imagenes/visa1.png"); 
+    background-size: cover;
+    }
+
+     
+    .paz9 	{
+      
+        width: 32%;
+        overflow: hidden;
+        background:url("../imagenes/porta2.png"); 
+        background-size: cover;
+        }
+    
+    
+    @media screen and (max-width: 380px) {
+
+
+       
+        .paz1 , .paz2 , .paz3 , .paz4 , .paz5 , .paz6 , .paz7 , .paz8 	{
+            position: relative;
+            width: 58%;
+            height: 28vh;
+            background:url("../imagenes/one.png");
+            background-size: cover; 
+            margin:0.3%;
+            transition: 0.5s all ease;
+            } 
+            
+            
+            
+            .paz2	{
+              
+                width: 40%;
+                overflow: hidden;
+                }
+                
+                .paz2:before {
+                content:"";
+                width: 100%;
+                height: 200%;
+                position:absolute;
+                background:url("../imagenes/dom.png");
+                background-size: cover;
+                top:0%;
+                left:-0%;
+                }
+            
+            
+            .paz3 	{
+            background:url("../imagenes/two.png");
+            background-size: cover;
+            width: 58%;
+            
+            }
+            
+            .paz4	{
+              
+                width: 40%;
+                overflow: hidden;
+                }
+                
+                .paz4:before {
+                content:"";
+                width: 100%;
+                height: 200%;
+                position:absolute;
+                background:url("../imagenes/dom.png");
+                background-size: cover;
+                top:-100%;
+                left:-0%;
+                }
+            
+                .paz5 	{
+                    background:url("../imagenes/visa6.png");
+                    background-size: cover;
+                    width: 100%;
+                    height:27vh;
+                    
+                    }
+    
+                            
+    
+    
+                    .paz6 	{
+                        background:url("../imagenes/visa3.png");
+                        background-size: cover;
+                        width: 100%;
+                        height:27vh;
+                        
+                        }
+        
+                       .paz6:before , .paz8:before { background: rgb(0, 0, 0 ,0.0);}
+    
+                       .paz7 	{
+                        background:url("../imagenes/visa2.png");
+                        background-size: cover;
+                        width: 100%;
+                        height:27vh;
+                        
+                        }
+
+                        .paz8 	{
+                            background:url("../imagenes/visa1.png");
+                            background-size: cover;
+                            width: 100%;
+                            height:27vh;
+                            
+                              
+                              }
+    
+                      .paz9 { display:none;}
+
+
+
+
+
+    
+            }
+              
+      
+      
+      
+  
+  

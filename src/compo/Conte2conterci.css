@@ -1,0 +1,423 @@
+   
+        .conterus {
+            position: relative;
+            width: 100%;
+            height:max-content;
+            background:var(--sub); 
+            box-shadow: -1px 1px 4px 2px rgb(0,0,0,0.3) inset;
+            padding-bottom: 7%;
+           
+            }
+            
+            
+            .conte-caja1 {
+              position: relative;
+            width: 100%;
+            height:100vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 5vh;
+            
+            }
+            
+            
+            .conte-caja1-img-r {
+              position: relative;
+            width: 67%; 
+            height: 100vh;
+            background:white ;
+            border-top-right-radius:15vw  ;
+            border-bottom-right-radius:50vw ;
+            display: flex;
+            align-items: center ;
+            overflow:hidden; 
+             
+            box-shadow: 0px 0px 4px 2px grey;
+            
+            
+            }
+            
+            .conte-caja1-img-r:before     {
+              content:"";
+                position:absolute;
+            
+                width:56vw;
+                height:38vw;
+                background:url("../imagenes/visa13.png");
+                background-size: cover;
+                }
+            
+            
+            
+            
+            
+            
+            .conte-caja1-text {
+            position: relative;
+            width: 30%;
+            height: max-content;
+            padding-left: 3%; 
+            
+            
+            }
+            
+            .conte-caja1-text p  {
+            position: relative;
+            width: 95%;
+            height: max-content;
+            margin:6vh 0vh 0vh 0vh;  
+         
+            color:white;
+            font-family: Segoe UI Symbol; 
+            font-size: 1.25vw; 
+            }
+            
+            
+            
+            
+            
+            .conte-caja1-img-c {
+              position:relative;
+              top:5%;
+              right: 0%;
+            width: 65%;
+            height: 80vh;
+            background:white; 
+            border-top-left-radius:20vw  ;
+            border-bottom-left-radius:5vw ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            padding-left:2%; 
+              
+            box-shadow: 0px 0px 4px 2px grey;
+            }
+            
+            .conte-caja1-img-c:before     {
+              content:"";
+                position:absolute;
+            right: 0%;
+                width:50vw;
+                height:30vw;
+                background:url("../imagenes/code1.svg");
+                background-size: cover;
+                box-shadow: -1px -1px 4px 2px rgb(0,0,0,0.3);
+                }
+            
+            
+                
+                .framework1 , .framework2  {
+            
+                  position: relative;
+                  width:5.5vw;
+                  height:5.5vw;
+                  background:url("../imagenes/react3.png");
+                  background-size:cover;
+                  border-radius: 50vw;
+                  margin:3.5vh 0vh 0.5vh 0vh ;
+                  display:flex;
+                  justify-content: center;
+                  align-items: center;
+                  }
+                  
+        .framework2 {
+          background:url("../imagenes/angular2.png");
+          background-size:cover;
+        
+        
+        }
+        
+                  .framework1::before {
+                  content:"React";
+                  position: absolute;
+                  left:120%;
+                  font-family: Segoe UI Symbol;
+                  color:white;
+                  font-size: 1.3vw;
+                  }
+        
+        
+                  .framework2::before {
+                    content:"Angular";
+                    position: absolute;
+                    left:120%;
+                    font-family: Segoe UI Symbol;
+                    color:white;
+                    font-size: 1.3vw;
+                    }
+            
+            
+            
+            
+            .conte-caja1-animacion , .conte-caja1-animacion-conte-texto , .conte-caja1-animacion-conte-texto{
+            
+            position: relative;
+            width: 50%;
+            height: 100%;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            
+            
+            
+            .contenedor-animacion{
+                  position: relative;
+                  width: 100%;
+                  height: 90%;
+                  box-shadow: 1px 1px 4px 2px rgb(0,0,0,0.2);
+                  
+                   
+            
+            
+            
+            
+            }
+            
+            
+            
+            
+            .imagen1 {position: relative;
+            width: 100%;
+            height: 100%;
+            background:url("../imagenes/an7.png"); 
+            background-size: cover;
+            animation: listo 20s alternate infinite; animation-delay: 4s;
+  
+          }
+      
+            
+            @keyframes listo {
+            
+              0% {background:url("../imagenes/pro6.png");background-size: cover; }
+               20% {background:url("../imagenes/pro6.png");background-size: cover; }
+               22% {background:url("../imagenes/pro2.png");background-size: cover; }
+               60% {background:url("../imagenes/pro2.png");background-size: cover; }
+               62% {background:url("../imagenes/pro1.png");background-size: cover; }
+              100% {background:url("../imagenes/pro1.png");background-size: cover; }
+              
+            
+             
+            }
+            
+            
+            
+            
+            
+            
+            .conte-caja1-animacion-conte-texto-y-puntos {
+            position: relative;
+            width: 92%;
+            height:100vh;
+            background:url("../imagenes/cooll7.png"); 
+            background-size:cover;
+            box-shadow:1px 1px 5px 3px rgb(0,0,0,0.3); 
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-wrap: wrap; 
+            }
+            
+            .conte-caja1-animacion-conte-texto-y-puntos:before {
+              content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background:rgb(0,0,0,0.65); 
+            
+            }
+            
+            
+            .conte-caja1-animacion-conte-texto-y-puntos p {
+            position: relative;
+            width: 85%;
+            height: max-content;
+            margin:0vh 0vh 0vh 0vh; 
+            border-bottom: 2px solid white ;
+            color:white;
+            font-family: Segoe UI Symbol; 
+            font-size: 1.2vw; 
+            padding:0.7vw; 
+            padding-bottom: 0.9vw;  
+            }
+            
+            
+            
+            
+            
+            
+            
+            .conte-caja1-animacion-conte-texto-y-puntos  .punto {
+            position: relative;
+            font-size: 2vw;
+            padding:0.5vw;
+            top:0%;
+            background:white;  
+            width: 1.5vw;
+            height: 1.5vw;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right:0.3vw; 
+            border-radius: 20vw;
+            border:2.5px solid #2d4262; 
+            color:#2d4262;
+            }
+
+
+            
+    @media screen and (max-width: 380px) {
+
+       .conte-caja1 {
+
+height:max-content;
+border:0.5vh solid gold;
+border-top:0vh solid gold;
+
+
+      }
+
+      .conte-caja1-img-r {
+        position: relative;
+      width: 100%; 
+      height: 45vh;
+      background:white ;
+      border-top-right-radius:15vw  ;
+      border-bottom-right-radius:50vw ;
+      display: flex;
+      align-items: center ;
+      overflow:hidden; 
+       
+      box-shadow: 0px 0px 4px 2px grey;
+      
+      
+      }
+      
+      .conte-caja1-img-r:before     {
+        content:"";
+          position:absolute;
+      
+          width:100vw;
+          height:40vh;
+          background:url("../imagenes/visa13.png");
+          background-size: cover;
+          }
+
+
+     
+            
+          .conte-caja1-text {
+            position: relative;
+            width: 100%;
+            height: max-content;
+           
+            padding-left: 0%; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+            }
+            
+            .conte-caja1-text p  {
+            position: relative;
+            width: 90%;
+            height: max-content;
+            margin:6vh 0vh 0vh 0vh;  
+         
+            color:white;
+            font-family: Segoe UI Symbol; 
+            font-size: 2.4vh; 
+            }
+            
+
+
+  
+            .conte-caja1-img-c {
+             
+            width: 90%;
+            left:10%;
+            height: 40vh;
+          
+            }
+            
+            .conte-caja1-img-c:before     {
+            
+                width:110%;
+                height:35vh;
+              
+                }
+            
+
+
+
+ 
+                .conte-caja1-animacion , .conte-caja1-animacion-conte-texto , .conte-caja1-animacion-conte-texto{
+            
+                  position: relative;
+                  width: 100vw;
+                  height: 100vh;
+                 background: #f1f1f1;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  
+                  }
+                  
+                  
+                  .conte-caja1-animacion {height:65vh;}
+
+                  .conte-caja1-animacion-conte-texto-y-puntos {width:100%;}
+
+                  .conte-caja1-animacion-conte-texto-y-puntos .punto {font-size:3vh; padding:2vh;}
+
+                  .conte-caja1-animacion-conte-texto-y-puntos p  {font-size: 2.3vh; padding:1.5vw;}
+
+
+              
+                      
+            .framework1 , .framework2  {
+            
+              position: relative;
+              width:8.5vh;
+              height:8.5vh;
+            
+              }
+              
+   
+    
+              .framework1::before {
+              content:"React";
+              position: absolute;
+              left:-90%;
+              font-size: 2.3vh;
+              }
+    
+    
+              .framework2::before {
+                content:"Angular";
+                position: absolute;
+                left:120%;
+                font-size: 2.3vh;
+                }
+
+
+
+
+
+
+
+
+
+              }
+            
+            
+            
+            
+  
