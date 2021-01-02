@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portafolio-web/static/css/main.4e69bb61.chunk.css",
+    "main.js": "/portafolio-web/static/js/main.868152ce.chunk.js",
+    "main.js.map": "/portafolio-web/static/js/main.868152ce.chunk.js.map",
+    "runtime-main.js": "/portafolio-web/static/js/runtime-main.ac8d3d32.js",
+    "runtime-main.js.map": "/portafolio-web/static/js/runtime-main.ac8d3d32.js.map",
+    "static/js/2.7739e507.chunk.js": "/portafolio-web/static/js/2.7739e507.chunk.js",
+    "static/js/2.7739e507.chunk.js.map": "/portafolio-web/static/js/2.7739e507.chunk.js.map",
+    "static/js/3.b286946b.chunk.js": "/portafolio-web/static/js/3.b286946b.chunk.js",
+    "static/js/3.b286946b.chunk.js.map": "/portafolio-web/static/js/3.b286946b.chunk.js.map",
+    "index.html": "/portafolio-web/index.html",
+    "static/css/main.4e69bb61.chunk.css.map": "/portafolio-web/static/css/main.4e69bb61.chunk.css.map",
+    "static/js/2.7739e507.chunk.js.LICENSE.txt": "/portafolio-web/static/js/2.7739e507.chunk.js.LICENSE.txt",
+    "static/media/Conte2conterci.css": "/portafolio-web/static/media/visa13.88f501b8.png",
+    "static/media/Conocimientos.css": "/portafolio-web/static/media/ts2.4c1b186e.png",
+    "static/media/Oferta.css": "/portafolio-web/static/media/club.8dc64235.svg",
+    "static/media/Canal.css": "/portafolio-web/static/media/play6.02ff2e87.png",
+    "static/media/Conte2.css": "/portafolio-web/static/media/ludi1.c683b7a0.png",
+    "static/media/Proyectos.css": "/portafolio-web/static/media/visa6.fa681236.png",
+    "static/media/Conte1.css": "/portafolio-web/static/media/visa4.2d1e56bd.png",
+    "static/media/all.min.css": "/portafolio-web/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/logo.6ce24c58.svg": "/portafolio-web/static/media/logo.6ce24c58.svg",
+    "static/media/Footer.css": "/portafolio-web/static/media/play4.c6c3572a.png",
+    "static/media/visa5.1399bf87.png": "/portafolio-web/static/media/visa5.1399bf87.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac8d3d32.js",
+    "static/js/2.7739e507.chunk.js",
+    "static/css/main.4e69bb61.chunk.css",
+    "static/js/main.868152ce.chunk.js"
+  ]
+}
