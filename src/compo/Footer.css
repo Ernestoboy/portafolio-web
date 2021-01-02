@@ -201,8 +201,7 @@
   
   
 
-
-        @media screen and (max-width: 380px) {
+          @media screen and (max-width: 480px) {
 
         .footer  { flex-wrap: wrap;}
 
